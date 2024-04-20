@@ -1,0 +1,35 @@
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 6rem;
+    border: 1px dashed #c4c4c4;
+    border-radius: 0.5rem;
+    width: 640px;
+    height: 420px;
+    background-color: rgb(255, 253, 245);
+}
+
+.welcome-title {
+    width: 420px;
+}
+
+.welcome-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.welcome-btn-login,
+.welcome-btn-signup {
+    width: 240px;
+}

@@ -1,0 +1,26 @@
+.hospital-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    margin-top: 6rem;
+    border: 1px dashed #c4c4c4;
+    border-radius: 0.5rem;
+    width: 580px;
+    height: 320px;
+    background-color: rgb(255, 253, 245);
+}
+
+.hospital-btn-add-hospital,
+.hospital-btn-show-hospital {
+    width: 240px;
+}
+
+.hospital-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    margin-top: 2rem;
+}

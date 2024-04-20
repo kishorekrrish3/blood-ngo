@@ -1,0 +1,27 @@
+.add-hospital {
+    padding-bottom: 6rem;
+}
+
+.add-hospital-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    margin-top: 6rem;
+    border: 1px dashed #c4c4c4;
+    border-radius: 0.5rem;
+    width: 640px;
+    height: 640px;
+    background-color: rgb(255, 253, 245);
+}
+
+.add-hospital-form {
+    margin-top: 2rem;
+    width: 420px; 
+}
+
+.add-hospital-btn-submit {
+    margin-top: 0.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

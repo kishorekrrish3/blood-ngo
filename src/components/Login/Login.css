@@ -1,0 +1,29 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    margin-top: 6rem;
+    border: 1px dashed #c4c4c4;
+    border-radius: 0.5rem;
+    width: 580px;
+    height: 460px;
+    background-color: rgb(255, 253, 245);
+}
+
+.login-form {
+    margin-top: 2rem;
+    width: 420px;
+}
+
+.login-btn-login {
+    margin-top: 0.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.login-footer-signup {
+    text-align: center;
+    margin-top: 0.5rem;
+}

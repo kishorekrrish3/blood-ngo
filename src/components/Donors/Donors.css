@@ -1,0 +1,26 @@
+.donors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    margin-top: 6rem;
+    border: 1px dashed #c4c4c4;
+    border-radius: 0.5rem;
+    width: 580px;
+    height: 320px;
+    background-color: rgb(255, 253, 245);
+}
+
+.donors-btn-add-donor,
+.donors-btn-show-donor {
+    width: 240px;
+}
+
+.donors-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    margin-top: 2rem;
+}

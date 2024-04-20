@@ -1,0 +1,26 @@
+.blood-bank-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    margin-top: 6rem;
+    border: 1px dashed #c4c4c4;
+    border-radius: 0.5rem;
+    width: 580px;
+    height: 320px;
+    background-color: rgb(255, 253, 245);
+}
+
+.blood-bank-btn-add-blood-bank,
+.blood-bank-btn-show-blood-bank {
+    width: 240px;
+}
+
+.blood-bank-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    margin-top: 2rem;
+}
